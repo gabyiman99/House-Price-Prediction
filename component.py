@@ -20,7 +20,7 @@ body = dbc.Container(
     html.H4('In this app, we will try to predict the price of your dream house. So input the desired values of each feature that you want, or you can leave it in its deafult value. Make sure that your inputs are within the range of each feature.'),
     html.H6('Note that this app only predicts houses in the Washington, USA area so the predictions will only be accurate to houses in that area.'),
     html.Div(id = "madeby", children=[
-        html.P('Made by: Licyawati Dewi, Gabriella')
+        html.P('Made by: Licyawati Dewi, Gabriella, Eric')
     ]),
     dbc.Container(children=[
         html.P('Total bedroom: (Input the total of bedrooms that you want!)'),
