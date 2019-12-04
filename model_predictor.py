@@ -1,14 +1,8 @@
 import os
 import pickle
-import random
-#from sklearn.externals import joblib
 
 import numpy as np
 import pandas as pd
-import sklearn.model_selection as ms
-#from os import open
-#from matplotlib.artist import get
-#from joblib import load
 
 class Predictor:
     '''Predictor serves as a class for generating predictions'''
