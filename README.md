@@ -40,6 +40,12 @@ There are a total of 6 processes in our model development, stated as follows:<br
 * Model Training
 * Model Evaluation
 
+### 2. Front-End Development
+Front-end was developed using Dash. The app focused all the scripts to one single file <code>components.py</code>.
+### 3. Integration
+The fitted model is saved as <code>.pkl</code> extension. The predictor is to be ran along with <code>components.py</code> as it is also inside the Dash script.
+### 4. Production
+After the succesful integration, the app is ready to be used.
 
 ## Procedures
 To be able to give a prediction on the price of a house with certain features, we need to [generate a model](https://github.com/gabyiman99/House-Price-Prediction/blob/master/HousePrice.ipynb) that fits well. To be able to do so, we need to get some training and validation data to help train our model so we can get a model than can make accurate predictions. We used both random forest and linear regression to compare the results. There were problems with linear regression, so we decided to use the random forest algorithm as our predictor.
