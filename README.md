@@ -59,6 +59,7 @@ Then, we create the layout of the app, including input boxes for users to input 
 ## Development Suggestions
 - There are other variables that can be dropped, as the final prediction will be altered by these seemingly unimportant features.
 - Broader data is recommended for these predictions.
+- The GUI can be improved to show the data.
 
 ## Disclaimer
 - The data are used for a previous Kaggle InClass competition and therefore are no longer suitable for modelling. We are using these data merely for academic purposes.
