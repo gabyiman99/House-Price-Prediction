@@ -14,27 +14,22 @@ All of the data was obtained from https://www.kaggle.com/c/house-prices-predicti
 5. Visual Studio Code
 
 ## Installation
-1. Download this repository.
-2. There are a few packages needed to be installed, which is:
-
-    i.  <code>dash</code> with the command <code>pip install dash</code>.
-
-    ii. <code>plotly</code> with the command <code>pip install plotly</code>.
-    
-note : run these codes in the command prompt instead of a regular python notebook cell.
-3. Run Visual Studio Code.
-4. Run <code>components.py</code>.
-5. The following code should be present in the VSCode terminal:
-
-Running on http://127.0.0.1:8050/
-
-Debugger PIN: 569-451-627
- * Serving Flask app "component" (lazy loading)
- * Environment: production
-   WARNING: This is a development server. Do not use it in a production deployment.
-   Use a production WSGI server instead.
- * Debug mode: on
-6. Click on the local link, and the web will start.
+1. Download this repository.<br>
+2. There are a few packages needed to be installed, which is:<br>
+    i.  <code>dash</code> with the command <code>pip install dash</code>.<br>
+    ii. <code>plotly</code> with the command <code>pip install plotly</code>.<br>
+note : run these codes in the command prompt instead of a regular python notebook cell.<br>
+3. Run Visual Studio Code.<br>
+4. Run <code>components.py</code>.<br>
+5. The following code should be present in the VSCode terminal:<br>
+Running on http://127.0.0.1:8050/ <br>
+Debugger PIN: 569-451-627<br>
+ * Serving Flask app "component" (lazy loading)<br>
+ * Environment: production<br>
+   WARNING: This is a development server. Do not use it in a production deployment.<br>
+   Use a production WSGI server instead.<br>
+ * Debug mode: on<br>
+6. Click on the local link, and the web will start.<br>
 
 ## Procedures
 To be able to give a prediction on the price of a house with certain features, we need to [generate a model](https://github.com/gabyiman99/House-Price-Prediction/blob/master/HousePrice.ipynb) that fits well. To be able to do so, we need to get some training and validation data to help train our model so we can get a model than can make accurate predictions. We used both random forest and linear regression to compare the results. There were problems with linear regression, so we decided to use the random forest algorithm as our predictor.
