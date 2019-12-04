@@ -48,7 +48,7 @@ The fitted model is saved as <code>.pkl</code> extension. The predictor is to be
 After the succesful integration, the app is ready to be used.
 
 ## Procedures
-To be able to give a prediction on the price of a house with certain features, we need to [generate a model](https://github.com/gabyiman99/House-Price-Prediction/blob/master/HousePrice.ipynb) that fits well. To be able to do so, we need to get some training and validation data to help train our model so we can get a model than can make accurate predictions. We used both random forest and linear regression to compare the results. There were problems with linear regression, so we decided to use the random forest algorithm as our predictor.
+To be able to give a prediction on the price of a house with certain features, we need to [generate a model](https://github.com/gabyiman99/House-Price-Prediction/blob/master/HousePrice.ipynb) that fits well. To be able to do so, we need to get some training and validation data to help train our model so we can get a model than can make accurate predictions. We used both random forest and linear regression to compare the results. It turns out that linear regression produced higher errors, so we decided to use the random forest algorithm as our predictor.
 
 Next, we create an app using Dash to visualize the result by letting users input the value of each features and the predicted price will be shown. To create a Dash app, we use Visual Studio Code as our IDE and use the help of sklearn's pickle module to save our previously trained model. As a way to  improve our GUI, we have also made some CSS codes for a better look at the results.
 
