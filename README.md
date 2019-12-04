@@ -31,6 +31,16 @@ Debugger PIN: 569-451-627<br>
  * Debug mode: on<br>
 6. Click on the local link, and the web will start.<br>
 
+## Development Flow
+### 1. Model Development
+There are a total of 6 processes in our model development, stated as follows:<br>
+* Data Acquisition
+* Train-Test Split
+* Feature Selection
+* Model Training
+* Model Evaluation
+
+
 ## Procedures
 To be able to give a prediction on the price of a house with certain features, we need to [generate a model](https://github.com/gabyiman99/House-Price-Prediction/blob/master/HousePrice.ipynb) that fits well. To be able to do so, we need to get some training and validation data to help train our model so we can get a model than can make accurate predictions. We used both random forest and linear regression to compare the results. There were problems with linear regression, so we decided to use the random forest algorithm as our predictor.
 
@@ -38,7 +48,7 @@ Next, we create an app using Dash to visualize the result by letting users input
 
 First, we create our predictor which is a module that can be called whenever users want to predict a house price. The code can be seen [here](https://github.com/gabyiman99/House-Price-Prediction/blob/master/model_predictor.py) 
 
-Then, we create the layout of the app, including input boxes for users to input the value of each features of the hosue they want to predict. The code can be seen [here](https://github.com/gabyiman99/House-Price-Prediction/blob/master/component.py). We use  <code>dash-bootstrap-components</code> to help with the app layout.
+Then, we create the layout of the app, including input boxes for users to input the value of each features of the hosue they want to predict. The code can be seen [here](https://github.com/gabyiman99/House-Price-Prediction/blob/master/component.py)
 
 ## Development Suggestions
 - There are other variables that can be dropped, as the final prediction will be altered by these seemingly unimportant features.
