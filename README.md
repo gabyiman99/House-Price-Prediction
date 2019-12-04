@@ -44,8 +44,8 @@ from sklearn.model_selection import train_test_split
 ```
 and set the <code>test_size</code> to 0.33. This means that 33% of data from the train.csv file will be selected randomly and used as validation data. We also set the <code>random_state</code> value to 1 so that each run can give us the same random data split. Using the <code>.shape</code> property, it can be seen that our data currently has 18 features that will be used to predict the target variable.<br>
 * Feature Selection<br>
-To select the features that we actually want to include in the model, we use the correlation approach. That is, we remove features that have high correlation with other features (in this case if the correlation coefficient is larger than 0.72). In the notebook, we use heatmap to visualize the correlations between each feature. In a heatmap, the correlation coefficient are visualized as blocks of colors ranging from light (low correlation) to dark (high correlation). Below is the picture of the data's heatmap.<br>
-[ HEAT MAP PIC ]<br>
+To select the features that we actually want to include in the model, we use the correlation approach. That is, we remove features that have high correlation with other features (in this case if the correlation coefficient is larger than 0.72). In the notebook, we use heatmap to visualize the correlations between each feature. In a heatmap, the correlation coefficient are visualized as blocks of colors ranging from light (low correlation) to dark (high correlation). Below is the picture of the data's heatmap.<br><br>
+![Heatmap](media/heatmap.jpg)<br><br>
 As can be seen, some features have high correlation with other features so we drop them from the data. The purpose of removing these features is to avoid multicollienearity which can result in a skewed or biased prediction. It can be seen that our final data has a total of 16 features. <br>
 Next, we need to see if there are any missing values in our data using
 ```python
@@ -153,6 +153,9 @@ Next, we create an app using Dash to visualize the result by letting users input
 First, we create our predictor which is a module that can be called whenever users want to predict a house price. The code can be seen [here](https://github.com/gabyiman99/House-Price-Prediction/blob/master/model_predictor.py) 
 
 Then, we create the layout of the app, including input boxes for users to input the value of each features of the hosue they want to predict. The code can be seen [here](https://github.com/gabyiman99/House-Price-Prediction/blob/master/component.py)
+
+## Demo
+![App Demo](media/demo.gif)
 
 ## Development Suggestions
 - Broader data is recommended for these predictions.
