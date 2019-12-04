@@ -1,4 +1,5 @@
 # House-Price-Prediction
+by : Licyawati Dewi, Gabriella, Eric Jahja
 
 This repository is a documentation of our Frontier Technology project on predicting house prices. 
 Given data of some features that could possibly predict a price of a house, we generate a model, train it using the training data, and use the model to predict new sets of input of the corresponding features. All coding was done using Python.
