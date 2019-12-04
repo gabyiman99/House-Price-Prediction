@@ -16,8 +16,11 @@ All of the data was obtained from https://www.kaggle.com/c/house-prices-predicti
 ## Installation
 1. Download this repository.
 2. There are a few packages needed to be installed, which is:
+
     i.  <code>dash</code> with the command <code>pip install dash</code>.
+
     ii. <code>plotly</code> with the command <code>pip install plotly</code>.
+    
 note : run these codes in the command prompt instead of a regular python notebook cell.
 3. Run Visual Studio Code.
 4. Run <code>components.py</code>.
