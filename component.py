@@ -60,7 +60,7 @@ body = dbc.Container(
         dbc.Button(id='submit-button', n_clicks=0, children='Predict!'),
         dbc.Alert(children=[
             html.H4(id = 'output-state')
-        ])
+        ], color="primary")
     ])
 ])
 )
@@ -120,7 +120,7 @@ def update_output(n_clicks: int,
         }
         
         return u'''
-        The house price prediction is USD {},
+        The house predicted price is USD {},
         '''.format(data["prediction"])
 
 if __name__ == '__main__':

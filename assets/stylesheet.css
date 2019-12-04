@@ -1,0 +1,40 @@
+body{
+    background-color: #c2f2f0;
+}
+Div{
+    margin: 20px 0px 20px 0px;;
+}
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: black;
+    border: 50px;
+    text-decoration: underline;
+}
+
+h6, h4{
+    text-align: justify;
+    margin: 20px;
+    display: inline-block;
+}
+
+#madeby, #output-state{
+    text-align: justify;
+    margin: 20px;
+}
+
+button{
+    margin: 20px;
+}
+
+dbc.Input{
+    margin: 20px;
+}
+
+p{
+    margin: 20px 0px 20px 0px;
+}
+
+dbc.Alert {
+    display:inline-block;
+}
